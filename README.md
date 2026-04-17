@@ -1,14 +1,4 @@
-# Repositório Template para OpenCV
-
-Este repositório serve como ponto a pé inicial para OpenCV em Python.
-
-## Estrutura
-
-- `requirements.txt` - lista de bibliotecas necessárias.
-- `webcam.py` - script de exemplo que abre a câmera/video.
-- `template.ipynb` - notebook com verificação básica da instalação do OpenCV.
-
-## Configuração do ambiente
+# Grupo TB - Checkpoint 2
 
 1. **Criar a virtualenv**:
 
@@ -34,15 +24,3 @@ Este repositório serve como ponto a pé inicial para OpenCV em Python.
    ```bash
    pip install -r requirements.txt
    ```
-
-## Testar a infraestrutura
-
-- Rode o notebook `template.ipynb` para verificar a importação de `cv2` e `matplotlib` capturar um frame da webcam.
-
-- Execute o script de exemplo:
-
-  ```bash
-  python webcam.py
-  ```
-  Uma janela mostrará a transmissão da câmera. Pressione `q` para sair.
-
